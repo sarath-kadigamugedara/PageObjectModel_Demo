@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-08T03:11:37Z" name="UCSC Test Automation Demo" finished-at="2021-09-08T03:13:04Z" duration-ms="87484">
+    <groups>
+    </groups>
+    <test started-at="2021-09-08T03:11:37Z" name="UCSC Test Automation Demo Testcases" finished-at="2021-09-08T03:13:04Z" duration-ms="87484">
+      <class name="com.actitime.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.HomePageTest@672872e1]" started-at="2021-09-08T03:11:37Z" name="seup" finished-at="2021-09-08T03:11:55Z" duration-ms="18314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="homePageLogoTest()[pri:1, instance:com.actitime.qa.testcases.HomePageTest@672872e1]" started-at="2021-09-08T03:11:55Z" name="homePageLogoTest" finished-at="2021-09-08T03:12:02Z" duration-ms="6383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.HomePageTest@672872e1]" started-at="2021-09-08T03:12:02Z" name="tearDown" finished-at="2021-09-08T03:12:02Z" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.HomePageTest@672872e1]" started-at="2021-09-08T03:12:15Z" name="seup" finished-at="2021-09-08T03:12:29Z" duration-ms="14120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="homePageTaskLinkTest()[pri:2, instance:com.actitime.qa.testcases.HomePageTest@672872e1]" started-at="2021-09-08T03:12:29Z" name="homePageTaskLinkTest" finished-at="2021-09-08T03:12:39Z" duration-ms="10453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTaskLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.HomePageTest@672872e1]" started-at="2021-09-08T03:12:39Z" name="tearDown" finished-at="2021-09-08T03:12:39Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.qa.testcases.HomePageTest -->
+      <class name="com.actitime.qa.testcases.LogonPageTest">
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.LogonPageTest@32910148]" started-at="2021-09-08T03:12:02Z" name="seup" finished-at="2021-09-08T03:12:14Z" duration-ms="12681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="loginPageLogoTest()[pri:1, instance:com.actitime.qa.testcases.LogonPageTest@32910148]" started-at="2021-09-08T03:12:14Z" name="loginPageLogoTest" finished-at="2021-09-08T03:12:14Z" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.LogonPageTest@32910148]" started-at="2021-09-08T03:12:14Z" name="tearDown" finished-at="2021-09-08T03:12:15Z" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.LogonPageTest@32910148]" started-at="2021-09-08T03:12:40Z" name="seup" finished-at="2021-09-08T03:12:51Z" duration-ms="11059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:2, instance:com.actitime.qa.testcases.LogonPageTest@32910148]" started-at="2021-09-08T03:12:51Z" name="LoginTest" data-provider="getactiTimeTestData" finished-at="2021-09-08T03:12:52Z" duration-ms="1066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.LogonPageTest@32910148]" started-at="2021-09-08T03:12:52Z" name="tearDown" finished-at="2021-09-08T03:12:52Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="seup()[pri:0, instance:com.actitime.qa.testcases.LogonPageTest@32910148]" started-at="2021-09-08T03:12:52Z" name="seup" finished-at="2021-09-08T03:13:03Z" duration-ms="11315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:2, instance:com.actitime.qa.testcases.LogonPageTest@32910148]" started-at="2021-09-08T03:13:03Z" name="LoginTest" data-provider="getactiTimeTestData" finished-at="2021-09-08T03:13:04Z" duration-ms="1012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.LogonPageTest@32910148]" started-at="2021-09-08T03:13:04Z" name="tearDown" finished-at="2021-09-08T03:13:04Z" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.qa.testcases.LogonPageTest -->
+    </test> <!-- UCSC Test Automation Demo Testcases -->
+  </suite> <!-- UCSC Test Automation Demo -->
+</testng-results>

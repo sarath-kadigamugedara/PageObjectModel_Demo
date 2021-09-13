@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UCSC Test Automation Demo]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.actitime.qa.extentreportlistener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="UCSC Test Automation Demo Testcases(failed)">
+    <classes>
+      <class name="com.actitime.qa.testcases.HomePageTest">
+        <methods>
+          <include name="homePageTaskLinkTest"/>
+          <include name="seup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.actitime.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- UCSC Test Automation Demo Testcases(failed) -->
+</suite> <!-- Failed suite [UCSC Test Automation Demo] -->

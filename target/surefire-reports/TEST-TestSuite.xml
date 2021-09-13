@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="1" name="TestSuite" time="18.626" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.boot.library.path" value="/Users/methuliakithma/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_16.0.1.v20210528-1205/jre/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/methuliakithma/eclipse-workspace/ActitimeTest"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="LK"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/methuliakithma/eclipse-workspace/ActitimeTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/yj/w7_v9kd95gqck84z7vw06lv80000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/methuliakithma/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2392305294383414190.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/methuliakithma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="60.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="11.4"/>
+    <property name="user.home" value="/Users/methuliakithma"/>
+    <property name="user.timezone" value="Asia/Colombo"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="16"/>
+    <property name="user.name" value="methuliakithma"/>
+    <property name="java.class.path" value="/Users/methuliakithma/apache-maven-3.8.1/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install -U"/>
+    <property name="java.home" value="/Users/methuliakithma/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_16.0.1.v20210528-1205/jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/methuliakithma/apache-maven-3.8.1"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+  </properties>
+  <testcase classname="com.actitime.qa.testcases.LogonPageTest" name="loginPageLogoTest" time="0.248"/>
+  <testcase classname="com.actitime.qa.testcases.HomePageTest" name="homePageLogoTest" time="6.057"/>
+  <testcase classname="com.actitime.qa.testcases.LogonPageTest" name="LoginTest" time="1.006"/>
+  <testcase classname="com.actitime.qa.testcases.LogonPageTest" name="LoginTest" time="1.173"/>
+  <testcase classname="com.actitime.qa.testcases.HomePageTest" name="homePageTaskLinkTest" time="10.142">
+    <failure message="element click intercepted: Element &lt;a href=&quot;/tasks/tasklist.do&quot; class=&quot;content tasks&quot;&gt;...&lt;/a&gt; is not clickable at point (701, 35). Other element would receive the click: &lt;div id=&quot;preInsertedTransformedMoireId&quot; class=&quot;transformedMoireClass&quot; style=&quot;transition: opacity 600ms ease-in-out 0s; opacity: 0;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=93.0.4577.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Methulis-Air&apos;, ip: &apos;fe80:0:0:0:63:ef58:a1b5:efac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: /var/folders/yj/w7_v9kd95gq...}, goog:chromeOptions: {debuggerAddress: localhost:62493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c9113e0b87cabed1d1b75f99f4426781" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/tasks/tasklist.do&quot; class=&quot;content tasks&quot;&gt;...&lt;/a&gt; is not clickable at point (701, 35). Other element would receive the click: &lt;div id=&quot;preInsertedTransformedMoireId&quot; class=&quot;transformedMoireClass&quot; style=&quot;transition: opacity 600ms ease-in-out 0s; opacity: 0;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=93.0.4577.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Methulis-Air&apos;, ip: &apos;fe80:0:0:0:63:ef58:a1b5:efac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: /var/folders/yj/w7_v9kd95gq...}, goog:chromeOptions: {debuggerAddress: localhost:62493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c9113e0b87cabed1d1b75f99f4426781
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at com.actitime.qa.pages.HomePage.clickOnTaskLink(HomePage.java:45)
+	at com.actitime.qa.testcases.HomePageTest.homePageTaskLinkTest(HomePageTest.java:44)
+</failure>
+    <system-out>Before navigating to: &apos;https://demo.actitime.com/login.do&apos;
+Navigated to:&apos;https://demo.actitime.com/login.do&apos;
+Trying to find Element By : By.xpath: //input[@name=&apos;username&apos;]
+Found Element By : By.xpath: //input[@name=&apos;username&apos;]
+Trying to find Element By : By.xpath: //input[@type=&apos;password&apos;and @name=&apos;pwd&apos;]
+Found Element By : By.xpath: //input[@type=&apos;password&apos;and @name=&apos;pwd&apos;]
+Trying to find Element By : By.xpath: //a[@id=&apos;loginButton&apos;]
+Found Element By : By.xpath: //a[@id=&apos;loginButton&apos;]
+Trying to click on: [[ChromeDriver: chrome on MAC (c9113e0b87cabed1d1b75f99f4426781)] -&gt; xpath: //a[@id=&apos;loginButton&apos;]]
+Clicked on: [[ChromeDriver: chrome on MAC (c9113e0b87cabed1d1b75f99f4426781)] -&gt; xpath: //a[@id=&apos;loginButton&apos;]]
+Trying to find Element By : By.xpath: //a[@class=&apos;content tasks&apos;]
+Found Element By : By.xpath: //a[@class=&apos;content tasks&apos;]
+Trying to click on: [[ChromeDriver: chrome on MAC (c9113e0b87cabed1d1b75f99f4426781)] -&gt; xpath: //a[@class=&apos;content tasks&apos;]]
+Exception occured: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/tasks/tasklist.do&quot; class=&quot;content tasks&quot;&gt;...&lt;/a&gt; is not clickable at point (701, 35). Other element would receive the click: &lt;div id=&quot;preInsertedTransformedMoireId&quot; class=&quot;transformedMoireClass&quot; style=&quot;transition: opacity 600ms ease-in-out 0s; opacity: 0;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=93.0.4577.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Methulis-Air&apos;, ip: &apos;fe80:0:0:0:63:ef58:a1b5:efac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: /var/folders/yj/w7_v9kd95gq...}, goog:chromeOptions: {debuggerAddress: localhost:62493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c9113e0b87cabed1d1b75f99f4426781
+</system-out>
+    <system-err>Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 6923
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1631053696.438][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 08, 2021 3:58:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+</testsuite>
